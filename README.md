@@ -50,4 +50,4 @@ Versions de POP
 - **Hachage:** Le client concatène le challenge avec le mot de passe et génère un hachage MD5.
 - **Envoi:** Le client envoie le hachage au serveur.
 - **Validation:** Le serveur vérifie le hachage et authentifie le client si le hachage est correct.
-_Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
+> _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
