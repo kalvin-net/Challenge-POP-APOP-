@@ -13,9 +13,9 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 Versions de POP
 ## **Il existe plusieurs versions de POP:**
 
-POP1 : La première version de POP, peu utilisée aujourd'hui.
-POP2 : Une version améliorée, également obsolète.
-POP3 : La version la plus utilisée actuellement. Elle offre plus de fonctionnalités et est standardisée par le RFC 1939
+- **POP1:** La première version de POP, peu utilisée aujourd'hui.
+- **POP2:** Une version améliorée, également obsolète.
+- **POP3:** La version la plus utilisée actuellement. Elle offre plus de fonctionnalités et est standardisée par le RFC 1939
 
 ##  What is APOP Authentication?
 > APOP (Authenticated POP) is an extension of the standard POP3 protocol. In simple words apop is used to encrypt the username or password.
