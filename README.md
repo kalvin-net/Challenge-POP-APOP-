@@ -25,7 +25,7 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 - **POP2 :** Une version améliorée, également obsolète.
 - **POP3 :** La version la plus utilisée actuellement. Elle offre plus de fonctionnalités et est standardisée par le RFC 1939
 
-##  **Qu'est-ce que l'authentification APOP?**
+##  **🔐Qu'est-ce que l'authentification APOP?**
 > L'authentification APOP (Authenticated Post Office Protocol) est une méthode d'authentification utilisée avec le protocole POP3 pour sécuriser le processus de connexion entre un client de messagerie et un serveur de messagerie. APOP vise à protéger les informations de connexion (nom d'utilisateur et mot de passe) contre les interceptions en utilisant une forme de cryptographie.
 
 ## **Fonctionnement de l'authentification APOP**
