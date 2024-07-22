@@ -1,7 +1,8 @@
 # Challenge: POP-APOP WRITEUP
 
-## **Préambule de POP-APOP**
+## Énoncé: Retrouver le mot de passe de l’utilisateur dans la trame réseau
 
+## **Préambule de POP-APOP**
 > POP-APOP est une méthode d'authentification sécurisée pour le protocole POP3. Lors de la connexion à un serveur de messagerie POP3, APOP utilise un challenge unique envoyé par le serveur, combiné avec le mot de passe de l'utilisateur, pour créer un hachage cryptographique. Ce hachage est ensuite envoyé au serveur pour vérification. Cette méthode empêche l'envoi de mots de passe en clair, réduisant ainsi les risques d'interception et de compromission des informations d'identification.
 
 ##  **Qu'est-ce que le protocole POP ?**
