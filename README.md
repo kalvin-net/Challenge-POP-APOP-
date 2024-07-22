@@ -49,9 +49,7 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 > Si le hachage généré par le serveur correspond à celui envoyé par le client, l'authentification est réussie.
 
 ## **Schéma succinct**
-- **Connexion :** Le client se connecte au serveur POP3.
-- **Challenge :** Le serveur envoie un challenge unique au client.
-- **Hachage :** Le client concatène le challenge avec le mot de passe et génère un hachage MD5.
-- **Envoi :** Le client envoie le hachage au serveur.
-- **Validation :** Le serveur vérifie le hachage et authentifie le client si le hachage est correct.
+
+![Diagramme sans nom drawio](https://github.com/user-attachments/assets/6ec215b1-04f9-47f3-9d77-199bfa769edc)
+
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
