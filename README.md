@@ -6,10 +6,10 @@
 ## **Fonctionnement de POP**
 _Le protocole POP fonctionne selon les étapes suivantes:_
 
-- **Connexion au serveur : Le client de messagerie (comme Outlook, Thunderbird ou un client de messagerie intégré) se connecte au serveur de messagerie via POP.
-- **Authentification : L'utilisateur s'authentifie en fournissant son nom d'utilisateur et son mot de passe.
-- **Téléchargement des emails : Tous les courriels présents sur le serveur sont téléchargés sur le client local.
-- **Suppression sur le serveur (optionnel) : Par défaut, une fois les courriels téléchargés, ils peuvent être supprimés du serveur. Cependant, cette option peut être configurée pour laisser une copie des courriels sur le serveur.
+- **Connexion au serveur:** Le client de messagerie (comme Outlook, Thunderbird ou un client de messagerie intégré) se connecte au serveur de messagerie via POP.
+- **Authentification:** L'utilisateur s'authentifie en fournissant son nom d'utilisateur et son mot de passe.
+- **Téléchargement des emails:** Tous les courriels présents sur le serveur sont téléchargés sur le client local.
+- **Suppression sur le serveur (optionnel):** Par défaut, une fois les courriels téléchargés, ils peuvent être supprimés du serveur. Cependant, cette option peut être configurée pour laisser une copie des courriels sur le serveur.
 Versions de POP
 ## **Il existe plusieurs versions de POP:**
 
