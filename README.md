@@ -50,6 +50,6 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 
 ## **Schéma succinct**
 
-![Diagramme sans nom drawio](https://github.com/user-attachments/assets/6ec215b1-04f9-47f3-9d77-199bfa769edc)
+![Diagramme sans nom drawio (1)](https://github.com/user-attachments/assets/6ec75ccc-f87e-4ed8-866f-190ff74d438b)
 
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
