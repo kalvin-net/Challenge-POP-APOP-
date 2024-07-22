@@ -14,9 +14,10 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 - **Authentification:** L'utilisateur s'authentifie en fournissant son nom d'utilisateur et son mot de passe.
 - **Téléchargement des emails:** Tous les courriels présents sur le serveur sont téléchargés sur le client local.
 - **Suppression sur le serveur (optionnel):** Par défaut, une fois les courriels téléchargés, ils peuvent être supprimés du serveur. Cependant, cette option peut être configurée pour laisser une copie des courriels sur le serveur.
-Versions de POP
-## **Il existe plusieurs versions de POP:**
 
+## **Versions de POP**
+
+**Il existe plusieurs versions de POP:**
 - **POP1:** La première version de POP, peu utilisée aujourd'hui.
 - **POP2:** Une version améliorée, également obsolète.
 - **POP3:** La version la plus utilisée actuellement. Elle offre plus de fonctionnalités et est standardisée par le RFC 1939
