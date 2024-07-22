@@ -1,5 +1,9 @@
 # Challenge: POP-APOP WRITEUP
 
+## **Préambule de POP-APOP**
+
+> POP-APOP est une méthode d'authentification sécurisée pour le protocole POP3. Lors de la connexion à un serveur de messagerie POP3, APOP utilise un challenge unique envoyé par le serveur, combiné avec le mot de passe de l'utilisateur, pour créer un hachage cryptographique. Ce hachage est ensuite envoyé au serveur pour vérification. Cette méthode empêche l'envoi de mots de passe en clair, réduisant ainsi les risques d'interception et de compromission des informations d'identification.
+
 ##  **Qu'est-ce que le protocole POP ?**
 > Le protocole POP (Post Office Protocol) est un protocole standard utilisé pour récupérer des courriels depuis un serveur de messagerie jusqu'à un client de messagerie. POP est l'un des protocoles les plus anciens et il est principalement utilisé pour télécharger les courriels sur un ordinateur local et les consulter hors ligne.
 
@@ -39,3 +43,11 @@ Versions de POP
 - **Vérification par le serveur:**
 > Le serveur POP3, qui connaît le challenge et le mot de passe de l'utilisateur, exécute le même processus de hachage.
 > Si le hachage généré par le serveur correspond à celui envoyé par le client, l'authentification est réussie.
+
+## **Schéma succinct**
+- **Connexion:** Le client se connecte au serveur POP3.
+- **Challenge:** Le serveur envoie un challenge unique au client.
+- **Hachage:** Le client concatène le challenge avec le mot de passe et génère un hachage MD5.
+- **Envoi:** Le client envoie le hachage au serveur.
+- **Validation:** Le serveur vérifie le hachage et authentifie le client si le hachage est correct.
+_Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
