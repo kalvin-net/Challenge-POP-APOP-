@@ -16,6 +16,8 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 - **Téléchargement des emails :** Tous les courriels présents sur le serveur sont téléchargés sur le client local.
 - **Suppression sur le serveur (optionnel) :** Par défaut, une fois les courriels téléchargés, ils peuvent être supprimés du serveur. Cependant, cette option peut être configurée pour laisser une copie des courriels sur le serveur.
 
+![667502571004235776](https://github.com/user-attachments/assets/edc7cfed-c6da-40f4-a4da-06f9a7efba67)
+
 ## **Versions de POP**
 
 **Il existe plusieurs versions de POP :**
