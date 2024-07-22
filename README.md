@@ -1,9 +1,9 @@
 # Challenge: POP-APOP WRITEUP
 
-##  **Qu'est-ce que le protocole POP ?
+##  **Qu'est-ce que le protocole POP ?**
 > Le protocole POP (Post Office Protocol) est un protocole standard utilisé pour récupérer des courriels depuis un serveur de messagerie jusqu'à un client de messagerie. POP est l'un des protocoles les plus anciens et il est principalement utilisé pour télécharger les courriels sur un ordinateur local et les consulter hors ligne.
 
-## **Fonctionnement de POP
+## **Fonctionnement de POP**
 _Le protocole POP fonctionne selon les étapes suivantes:_
 
 - **Connexion au serveur : Le client de messagerie (comme Outlook, Thunderbird ou un client de messagerie intégré) se connecte au serveur de messagerie via POP.
@@ -11,7 +11,7 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 - **Téléchargement des emails : Tous les courriels présents sur le serveur sont téléchargés sur le client local.
 - **Suppression sur le serveur (optionnel) : Par défaut, une fois les courriels téléchargés, ils peuvent être supprimés du serveur. Cependant, cette option peut être configurée pour laisser une copie des courriels sur le serveur.
 Versions de POP
-## **Il existe plusieurs versions de POP :
+## **Il existe plusieurs versions de POP:**
 
 POP1 : La première version de POP, peu utilisée aujourd'hui.
 POP2 : Une version améliorée, également obsolète.
