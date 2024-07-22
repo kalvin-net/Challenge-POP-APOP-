@@ -17,5 +17,25 @@ Versions de POP
 - **POP2:** Une version améliorée, également obsolète.
 - **POP3:** La version la plus utilisée actuellement. Elle offre plus de fonctionnalités et est standardisée par le RFC 1939
 
-##  What is APOP Authentication?
-> APOP (Authenticated POP) is an extension of the standard POP3 protocol. In simple words apop is used to encrypt the username or password.
+##  **Qu'est-ce que l'authentification APOP?**
+> L'authentification APOP (Authenticated Post Office Protocol) est une méthode d'authentification utilisée avec le protocole POP3 pour sécuriser le processus de connexion entre un client de messagerie et un serveur de messagerie. APOP vise à protéger les informations de connexion (nom d'utilisateur et mot de passe) contre les interceptions en utilisant une forme de cryptographie.
+
+## **Fonctionnement de l'authentification APOP**
+> APOP ajoute une couche de sécurité en utilisant un challenge-response pour l'authentification, ce qui rend plus difficile pour un attaquant de capturer et de réutiliser les informations de connexion. Voici comment cela fonctionne :
+
+- **Connexion au serveur:**
+> Le client de messagerie se connecte au serveur POP3.
+
+- **Envoi du challenge:**
+> Le serveur POP3 envoie un challenge unique (généralement un timestamp ou une chaîne aléatoire) au client.
+
+- **Génération de la réponse:**
+> Le client de messagerie concatène le challenge avec le mot de passe de l'utilisateur.
+> Le client applique ensuite une fonction de hachage (souvent MD5) au résultat pour produire un hachage.
+
+- **Envoi de la réponse au serveur:**
+> Le client envoie le hachage résultant au serveur POP3.
+
+- **Vérification par le serveur:**
+> Le serveur POP3, qui connaît le challenge et le mot de passe de l'utilisateur, exécute le même processus de hachage.
+> Si le hachage généré par le serveur correspond à celui envoyé par le client, l'authentification est réussie.
