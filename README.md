@@ -1,5 +1,4 @@
-# ![WRITEUP](https://github.com/user-attachments/assets/35afce5d-fd70-4b6e-bd33-415a65198365)Challenge : POP-APOP WRITEUP
-
+# ![WRITEUP](https://github.com/user-attachments/assets/35afce5d-fd70-4b6e-bd33-415a65198365)
 ## Énoncé : Retrouver le mot de passe de l’utilisateur dans la trame réseau
 
 ## **Préambule de POP-APOP**
