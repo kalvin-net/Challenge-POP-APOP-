@@ -53,3 +53,15 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 ![Diagramme sans nom drawio (1)](https://github.com/user-attachments/assets/6ec75ccc-f87e-4ed8-866f-190ff74d438b)
 
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
+
+## Solution
+
+- Téléchargez le fichier ch23.zip. Décompressez-le, et vous obtiendrez un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
+
+> Le nom du défi nous donne un indice utile sur le fait que ce défi est basé sur le protocole pop et l'authentification apop.
+
+- Utilisons l'option filter pour filtrer les paquets **pop** dans Wireshark.
+
+- Après avoir examiné les paquets, nous avons appris que l'authentification apop est utilisée pour crypter le mot de passe.
+![Capture d'écran 2024-07-23 123813](https://github.com/user-attachments/assets/f28ab4b5-a917-4b26-a0cc-a7277c19ba40)
+
