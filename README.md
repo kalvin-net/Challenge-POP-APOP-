@@ -1,8 +1,8 @@
 # ![WRITEUP-VF](https://github.com/user-attachments/assets/531221b0-e4ad-4d4b-aa28-b07208b28506)
 
-## 🎯 Énoncé : Retrouver le mot de passe de l’utilisateur dans la trame réseau
+## 🎯 Objectif : Retrouver le mot de passe de l’utilisateur dans la trame réseau
 
-## **Préambule de POP-APOP**
+## **Introduction à POP-APOP**
 > POP-APOP est une méthode d'authentification sécurisée pour le protocole POP3. Lors de la connexion à un serveur de messagerie POP3, APOP utilise un challenge unique envoyé par le serveur, combiné avec le mot de passe de l'utilisateur, pour créer un hachage cryptographique. Ce hachage est ensuite envoyé au serveur pour vérification. Cette méthode empêche l'envoi de mots de passe en clair, réduisant ainsi les risques d'interception et de compromission des informations d'identification.
 ## Compréhension du Mécanisme POP - APOP
 
@@ -28,14 +28,14 @@
    
 - Téléchargéons le fichier **ch23.zip.** Décompressons-le, et nous obtiendrons un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
 
-> Le nom du défi nous donne un indice utile sur le fait que ce défi est basé sur le protocole pop et l'authentification apop.
+> Le nom du défi nous donne un indice utile sur le fait que ce défi est basé sur le protocole POP et l'authentification APOP.
 
-- Utilisons l'option filter pour filtrer les paquets **pop** dans Wireshark.
+- Utilisons l'option de filtrage pour filtrer les paquets **POP** dans Wireshark..
 
-- Après avoir examiné les paquets, nous avons appris que l'authentification apop est utilisée pour crypter le mot de passe est: **4ddd4137b84ff2db7291b568289717f0.**
+- Après avoir examiné les paquets, nous avons appris que l'authentification APOP est utilisée pour crypter le mot de passe suivant : **4ddd4137b84ff2db7291b568289717f0.**
 ![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
 
-- Identifier le type de hachage à l'aide de l'outil **hash-identifier**
+- Identifions le type de hachage à l'aide de l'outil **hash-identifier**
 ![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
 2. **Crack du Mot de Passe**
@@ -45,5 +45,5 @@
 ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
 ## CONCLUSION: 
-> Ce challenge m'a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé John The Ripper pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
+> En suivant ces étapes, j'ai pu déchiffrer le mot de passe de l'utilisateur à partir des trames réseau capturées. Ce défi démontre l'efficacité des outils de décryptage modernes et la nécessité de comprendre les protocoles de sécurité.
 
