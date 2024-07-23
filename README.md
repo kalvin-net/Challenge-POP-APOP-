@@ -26,7 +26,7 @@
 
 1. **Extraction et Analyse**
    
-- Téléchargez le fichier ch23.zip. Décompressez-le, et vous obtiendrez un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
+- Téléchargéons le fichier **ch23.zip.** Décompressons-le, et nous obtiendrons un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
 
 > Le nom du défi nous donne un indice utile sur le fait que ce défi est basé sur le protocole pop et l'authentification apop.
 
