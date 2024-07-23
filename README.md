@@ -66,6 +66,6 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 ![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
 
 - Identifier le type de hachage à l'aide de l'outil hash-identifier
-
+![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
 
