@@ -22,7 +22,7 @@
 
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
 
-## Solution
+## SOLUTION
 
 1. **Extraction et Analyse**
    
@@ -32,10 +32,10 @@
 
 - Utilisons l'option filter pour filtrer les paquets **pop** dans Wireshark.
 
-- Après avoir examiné les paquets, nous avons appris que l'authentification apop est utilisée pour crypter le mot de passe est: 4ddd4137b84ff2db7291b568289717f0.
+- Après avoir examiné les paquets, nous avons appris que l'authentification apop est utilisée pour crypter le mot de passe est: **4ddd4137b84ff2db7291b568289717f0.**
 ![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
 
-- Identifier le type de hachage à l'aide de l'outil hash-identifier
+- Identifier le type de hachage à l'aide de l'outil **hash-identifier**
 ![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
 2. **Crack du Mot de Passe**
@@ -45,5 +45,5 @@
 ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
 ## CONCLUSION: 
-> Ce challenge m'a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé Hashcat pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
+> Ce challenge m'a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé John The Ripper pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
 
