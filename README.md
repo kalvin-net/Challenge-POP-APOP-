@@ -25,7 +25,7 @@
 
 ## Solution
 
-1. Extraction et Analyse
+1. **Extraction et Analyse**
    
 - Téléchargez le fichier ch23.zip. Décompressez-le, et vous obtiendrez un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
 
@@ -39,7 +39,7 @@
 - Identifier le type de hachage à l'aide de l'outil hash-identifier
 ![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
-2. Crack du Mot de Passe
+2. **Crack du Mot de Passe**
    
 - Nous allons maintenant utiliser l'outil hashcat pour déchiffrer le mot de passe.
 
