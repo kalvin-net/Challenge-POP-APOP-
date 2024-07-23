@@ -44,5 +44,5 @@
 - Nous allons maintenant utiliser l'outil hashcat pour déchiffrer le mot de passe.
 
 ## conclusion: 
-> Ce challenge a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé Hashcat pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
+> Ce challenge m'a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé Hashcat pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
 
