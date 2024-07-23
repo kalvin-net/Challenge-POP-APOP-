@@ -63,5 +63,5 @@ _Le protocole POP fonctionne selon les étapes suivantes:_
 - Utilisons l'option filter pour filtrer les paquets **pop** dans Wireshark.
 
 - Après avoir examiné les paquets, nous avons appris que l'authentification apop est utilisée pour crypter le mot de passe.
-![Capture d'écran 2024-07-23 123813](https://github.com/user-attachments/assets/f28ab4b5-a917-4b26-a0cc-a7277c19ba40)
+![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
 
