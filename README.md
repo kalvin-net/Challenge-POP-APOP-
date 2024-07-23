@@ -11,7 +11,7 @@
 
 ![schema-fonctionnement-protocole-pop-768x483](https://github.com/user-attachments/assets/d50ced9a-1647-464d-aad9-5e0ffd7c5e4e)
 
--  **🔐  Qu'est-ce que l'authentification APOP?**
+-  ** 🔐  Qu'est-ce que l'authentification APOP?**
 > L'authentification APOP (Authenticated Post Office Protocol) est une méthode d'authentification utilisée avec le protocole POP3 pour sécuriser le processus de connexion entre un client de messagerie et un serveur de messagerie. APOP vise à protéger les informations de connexion (nom d'utilisateur et mot de passe) contre les interceptions en utilisant une forme de cryptographie MD5($pass.$salt).
 
 > APOP ajoute une couche de sécurité en utilisant un challenge-response pour l'authentification, ce qui rend plus difficile pour un attaquant de capturer et de réutiliser les informations de connexion.
@@ -22,7 +22,7 @@
 
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
 
-## SOLUTION
+## 🎯  SOLUTION
 
 1. **Extraction et Analyse**
    
@@ -44,6 +44,6 @@
 
 ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
-## CONCLUSION: 
+## 🎯  CONCLUSION: 
 > En suivant ces étapes, j'ai pu déchiffrer le mot de passe de l'utilisateur à partir des trames réseau capturées. Ce défi démontre l'efficacité des outils de décryptage modernes et la nécessité de comprendre les protocoles de sécurité.
 
