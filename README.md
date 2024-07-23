@@ -40,7 +40,9 @@
 
 2. **Crack du Mot de Passe**
    
-- Nous allons maintenant utiliser l'outil hashcat pour déchiffrer le mot de passe.
+- Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.
+
+![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
 ## conclusion: 
 > Ce challenge m'a montré l'importance de maîtriser les protocoles de communication et les mécanismes d'authentification. Après avoir analysé le fichier pcapng et identifié l'authentification APOP, j'ai utilisé Hashcat pour craquer le mot de passe haché. Ce défi démontre l'efficacité des outils modernes de craquage et la nécessité de comprendre les protocoles de sécurité.
