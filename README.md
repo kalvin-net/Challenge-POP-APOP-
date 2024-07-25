@@ -47,7 +47,7 @@
   > - sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
  - Créons un format dynamique dans le répertoire d'exécution **cd /usr/share/john/john-local.conf**  afin que John The Ripper inclue un préfixe constant avant le mot de passe et ajoutons la configuration suivante:
-  > ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/7381d72b-91b7-4c89-b59b-bf26b6ec6a38)
+  > ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/32830997-2c83-459a-8d21-42d81c0645aa)
       
  - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
 
