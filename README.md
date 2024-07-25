@@ -41,6 +41,14 @@
 2. **Crack du Mot de Passe**
    
 - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
+  
+- Installons le **Wordlist :**
+  - sudo apt-get install wordlists
+  - sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+    
+- Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
+
+- Exécutons la dernière commande de décryptage : **john --format=dynamic_1520 hash_flag.txt --wordlist=/usr/share/wordlists/rockyou.txt --fork=4**  
 
 ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
