@@ -26,7 +26,7 @@
 
 ### Outils à utiliser : 
 
-> Internet / Wireshark / Kali-linux / Hash-Identifier / listes de mots / John The Ripper
+> Internet / Wireshark / Kali-linux / Worldlist / Hash-Identifier / John The Ripper
 
 1. **Extraction et Analyse**
    
