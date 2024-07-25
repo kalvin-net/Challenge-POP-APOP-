@@ -47,13 +47,13 @@
   > - sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
  - Créons un format dynamique dans le répertoire d'exécution **cd /usr/share/john/john-local.conf**  afin que John The Ripper inclue un préfixe constant avant le mot de passe et ajoutons la configuration suivante:
-  ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/7381d72b-91b7-4c89-b59b-bf26b6ec6a38)
+  > ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/7381d72b-91b7-4c89-b59b-bf26b6ec6a38)
       
  - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
 
  - Effectuons le décryptage final en exécutant la commande suivante pour lancer John The Ripper avec le format dynamique que nous avons défini et un dictionnaire de mots de passe : **john --format=dynamic_1520 hash_flag.txt --wordlist=/usr/share/wordlists/rockyou.txt --fork=4**  
 
-![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
+> ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
 ## 🎯  CONCLUSION: 
 > En suivant ces étapes, j'ai pu déchiffrer le mot de passe de l'utilisateur à partir des trames réseau capturées. Ce défi démontre l'efficacité des outils de décryptage modernes et la nécessité de comprendre les protocoles de sécurité.
