@@ -35,7 +35,7 @@
 > - Après avoir examiné les paquets, nous avons appris que l'authentification APOP est utilisée pour crypter le mot de passe suivant : **4ddd4137b84ff2db7291b568289717f0.**
 ![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
 
-> - Identifions le type de hachage à l'aide de l'outil **hash-identifier**
+- Identifions le type de hachage à l'aide de l'outil **hash-identifier**
 ![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
 2. **Crack du Mot de Passe**
