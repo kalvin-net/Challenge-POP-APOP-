@@ -40,7 +40,7 @@
 
 2. **Crack du Mot de Passe**
    
-- Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
+> - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
   
 - Installons le **Wordlists :**
   - sudo apt-get install wordlists
