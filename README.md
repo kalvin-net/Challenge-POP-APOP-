@@ -39,14 +39,18 @@
 > ![Capture d'écran 2024-07-23 132120](https://github.com/user-attachments/assets/a9c34463-a11f-4d65-a499-22faf257eba8)
 
 2. **Crack du Mot de Passe**
-   
- - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
-  
-- Installons le **Wordlists :**
+
+   - Installons le **Wordlists :**
   > - sudo apt-get install wordlists
   > - sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
- - Créons un format dynamique dans le répertoire d'exécution **cd /usr/share/john/john-local.conf**  afin que John The Ripper inclue un préfixe constant avant le mot de passe et ajoutons la configuration suivante:
+ - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**:
+   > - wget https://github.com/openwall/john/archive/refs/heads/bleeding-jumbo.zip -O john.zip
+   > - unzip john.zip
+   > - cd john-bleeding-jumbo/src
+   > - ./configure && make
+
+ - Créons un format dynamique dans le répertoire d'exécution **sudo nano /usr/share/john/john-local.conf**  afin afin de permettre le craquage de mots de passe en utilisant une expression MD5 personnalisée en ajoutant la configuration suivante:
   > ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/32830997-2c83-459a-8d21-42d81c0645aa)
       
  - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
