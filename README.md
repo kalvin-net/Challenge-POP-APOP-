@@ -1,4 +1,4 @@
-# ![WRITEUP copy](https://github.com/user-attachments/assets/c4efd95e-be1e-4ed8-bd8a-70dbbfbc8ffe)
+# ![WRITEUP copy](https://github.com/user-attachments/assets/cc4a2333-10c3-47e3-b3ff-0eef936456d0)
 
 ## 🎯 Objectif : Retrouver le mot de passe de l’utilisateur dans la trame réseau
 
