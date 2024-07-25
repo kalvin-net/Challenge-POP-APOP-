@@ -26,11 +26,11 @@
 
 1. **Extraction et Analyse**
    
-> - Téléchargéons le fichier **ch23.zip.** Décompressons-le, et nous obtiendrons un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
+ - Téléchargéons le fichier **ch23.zip.** Décompressons-le, et nous obtiendrons un fichier **pcapng** qui s'ouvrira dans **Wireshark**.
 
 > Le nom du défi nous donne un indice utile sur le fait que ce défi est basé sur le protocole POP et l'authentification APOP.
 
-> - Utilisons l'option de filtrage pour filtrer les paquets **POP** dans Wireshark..
+ - Utilisons l'option de filtrage pour filtrer les paquets **POP** dans Wireshark..
 
 > - Après avoir examiné les paquets, nous avons appris que l'authentification APOP est utilisée pour crypter le mot de passe suivant : **4ddd4137b84ff2db7291b568289717f0.**
 ![Capture d'écran 2024-07-23 124144](https://github.com/user-attachments/assets/c6cc5f62-e722-4f2d-8e18-da13fcf100e5)
@@ -40,18 +40,18 @@
 
 2. **Crack du Mot de Passe**
    
-> - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
+ - Nous allons maintenant utiliser l'outil **John The Ripper** pour déchiffrer le mot de passe.  Pour l'installation et l'utilisation de **John the Ripper dans Kali Linux**, suivons ce lien [lien](https://thetechdeck.hashnode.dev/how-to-use-john-the-ripper-in-kali-linux)
   
 - Installons le **Wordlists :**
   > - sudo apt-get install wordlists
   > - sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
-> - Créons un format dynamique dans le répertoire d'exécution **cd /usr/share/john/john-local.conf**  afin que John The Ripper inclue un préfixe constant avant le mot de passe et ajoutons la configuration suivante:
+ - Créons un format dynamique dans le répertoire d'exécution **cd /usr/share/john/john-local.conf**  afin que John The Ripper inclue un préfixe constant avant le mot de passe et ajoutons la configuration suivante:
   ![Capture d'écran 2024-07-25 113558](https://github.com/user-attachments/assets/7381d72b-91b7-4c89-b59b-bf26b6ec6a38)
       
-> - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
+ - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
 
-> - Effectuons le décryptage final en exécutant la commande suivante pour lancer John The Ripper avec le format dynamique que nous avons défini et un dictionnaire de mots de passe : **john --format=dynamic_1520 hash_flag.txt --wordlist=/usr/share/wordlists/rockyou.txt --fork=4**  
+ - Effectuons le décryptage final en exécutant la commande suivante pour lancer John The Ripper avec le format dynamique que nous avons défini et un dictionnaire de mots de passe : **john --format=dynamic_1520 hash_flag.txt --wordlist=/usr/share/wordlists/rockyou.txt --fork=4**  
 
 ![John_The_Ripper](https://github.com/user-attachments/assets/532456a9-a049-49d7-b9a6-c3bc815398aa)
 
