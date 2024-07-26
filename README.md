@@ -55,18 +55,6 @@
    > - ./configure && make
 
  - Créons un format dynamique dans le répertoire d'exécution **sudo nano /usr/share/john/john-local.conf**  afin de permettre le craquage de mots de passe en utilisant une expression MD5 personnalisée en ajoutant la configuration suivante:
-   
-List.Generic:dynamic_1520]
-Expression=md5(CONST:$p) (md5 with prefix password)
-Flag=MGF_FLAT_BUFFERS
-CONST1=<1755.1.5f403625.BcWGgpKzUPRC8vscWn0wuA==@vps-7e2f5a72>
-MaxInputLen=70
-Func=DynamicFunc__clean_input
-Func=DynamicFunc__append_input1_from_CONST1
-Func=DynamicFunc__append_keys
-Func=DynamicFunc__crypt
-# Test with RFC example
-Test=$dynamic_1520$7b11054a9dd9230eedf08e59e3d90760:tanstaaf
 
   ![Scripts_JTR](https://github.com/user-attachments/assets/5b7671ae-c51e-45bf-81bc-d4ca5a3f06ea)
       
