@@ -1,4 +1,4 @@
-# ![352238792-cc4a2333-10c3-47e3-b3ff-0eef936456d0](https://github.com/user-attachments/assets/f66a5f7f-0717-47f8-a898-ca6dbe7256e4)
+# ![352238792-cc4a2333-10c3-47e3-b3ff-0eef936456d0 (1)](https://github.com/user-attachments/assets/492cdbbd-ef37-4ba8-bada-1475b5da54c4)
 
 ## 🎯 Objectif : Retrouver le mot de passe de l’utilisateur dans la trame réseau
 
