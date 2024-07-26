@@ -54,7 +54,7 @@
    > - cd john-bleeding-jumbo/src
    > - ./configure && make
 
- - Créons un format dynamique dans le répertoire d'exécution **sudo nano /usr/share/john/john-local.conf**  afin afin de permettre le craquage de mots de passe en utilisant une expression MD5 personnalisée en ajoutant la configuration suivante:
+ - Créons un format dynamique dans le répertoire d'exécution **sudo nano /usr/share/john/john-local.conf**  afin de permettre le craquage de mots de passe en utilisant une expression MD5 personnalisée en ajoutant la configuration suivante:
   ![Scripts_JTR](https://github.com/user-attachments/assets/5b7671ae-c51e-45bf-81bc-d4ca5a3f06ea)
       
  - Créons un fichier texte contenant le hach MD5 que nous allons déchiffrer : **echo "4ddd4137b84ff2db7291b568289717f0" > hash_flag.txt**
