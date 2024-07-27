@@ -18,7 +18,7 @@
 
 ## **Schéma succinct**
 
-> ![Diagramme sans nom drawio (1)](https://github.com/user-attachments/assets/6ec75ccc-f87e-4ed8-866f-190ff74d438b)
+> ![Diagramme sans nom drawio (2)](https://github.com/user-attachments/assets/d07fe045-7368-4c31-85c5-cdb1b10692a6)
 
 > _Ce processus sécurise l'authentification en protégeant les mots de passe contre les interceptions en clair._
 
